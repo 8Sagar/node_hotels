@@ -30,6 +30,4 @@ const MenuItem = require('./../models/MenuItem');
               res.status(500).json({error:'Internal Server Error'});
             }
            })  
-
-
            module.exports = router;
